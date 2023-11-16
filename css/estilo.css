@@ -32,6 +32,9 @@ footer{
     position: relative;
     z-index: 1000;
     margin-bottom: 20px;
+    left: 1%;
+    background-image: url("../img/Recurso\ 8.png");
+    background-size: contain;
 }
 #nombreRectangulo{
     background-color: #013334;
@@ -42,4 +45,21 @@ footer{
     font-weight: bold;
     position: absolute;
     top: 14%;
+}
+ul li{
+    display: inline;
+    padding:0 10px;
+    border-right: solid 2px black;
+}
+ul li a{
+    Color: #550101;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: white;
+    font-size: 20px;
+    text-decoration: underline dashed 2px purple;
+    background-color: #D6F2A4;
 }
