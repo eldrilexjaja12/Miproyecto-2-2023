@@ -63,3 +63,6 @@ ul li a:hover{
     text-decoration: underline dashed 2px purple;
     background-color: #D6F2A4;
 }
+#contenidoCuerpo{
+    display: flex;
+}
