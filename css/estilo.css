@@ -92,3 +92,41 @@ h1{
     padding-bottom: 20px;
     text-transform: uppercase;
 }
+#detalleDatos{
+    width: 70%;
+    padding: 20px;
+}
+#botones{
+    display: flex;
+    margin-top: 20px;
+}
+#botonFavorito{
+    flex: 50%;
+}
+#botonUbicacion{
+    flex: 50%;
+}
+#marcoFavorito{
+    background-color: #CCCCCC;
+    width: 250px;
+    background-image: url(../img/Recurso\ 13.png);
+    background-repeat: no-repeat;
+    background-size: 28px;
+    padding: 25px 0px 25px 60px;
+    background-position: left 30px center;
+    border-radius: 15px;
+}
+#marcoFavorito:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+#ubicacionFavorita{
+    background-color: #CCCCCC;
+    width: 250px;
+    background-image: url(../img/Recurso\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 28px;
+    padding: 25px 0px 25px 60px;
+    background-position: left 30px center;
+    border-radius: 15px;
+}
