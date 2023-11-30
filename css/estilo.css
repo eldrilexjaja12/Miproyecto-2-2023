@@ -12,10 +12,15 @@
     width: 100%;
     background-color: #D3EE9F;
     padding-top: 50px;
+    height: 600px;
 }
 footer{
     width: 100%;
     background-color: #7B9E35;
+    position: absolute;
+    bottom: 0;
+}
+#footerMenu{
     display: flex;
     padding: 30px;
 }
@@ -136,11 +141,10 @@ h1{
 #marcoMenuFooter{
     flex: 15%;
 }
-#marcoDetalleFooter{
-    flex: 35%;
-}
 #marcoRedesFooter{
     flex: 45%;
+    text-align: right;
+    padding: 70px 0;
 }
 .footerRedes{
     display: inline;
@@ -150,4 +154,29 @@ li img{
 }
 .footerRedes li{
     border: none;
+}
+nav a{
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav a:hover{
+    color: #550101;
+    font-size: 25px;
+}
+#marcoDetalleFooter{
+    flex: 30%;
+    text-align: center;
+    animation: move 5s infinite;
+    position: relative;
+}
+@keyframes move{
+    from{top: 0px;}
+    to{top: 40px;}
+}
+li img:hover{
+    opacity: 60%;
 }
